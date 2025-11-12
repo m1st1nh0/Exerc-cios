@@ -7,7 +7,7 @@ Este é um projeto para praticar lógica de programação usando **JavaScript**.
 
 
 
-##Exercício 1
+## Exercício 1
 
 ### 🛒 Batata no mercado
 
