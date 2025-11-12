@@ -5,6 +5,12 @@ Bem-vindo à minha lista de exercícios do processo trainee na **Incantare**!
 ## Sobre o Projeto
 Este é um projeto para praticar lógica de programação usando **JavaScript**. O foco inicial foi criar uma solução simples que simula um carrinho de compras: declarando uma lista de produtos, calculando o valor total, aplicando descontos condicionais e imprimindo uma mensagem com as informações organizadas.
 
+
+
+#Exercício 1
+
+## 🛒 Batata no mercado
+
 ## O que estou aprendendo
 - **Manipulação de arrays de objetos** utilizando métodos como `map` e `reduce`
 - **Operadores condicionais** para lógica de negócios simples
