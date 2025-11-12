@@ -7,9 +7,9 @@ Este é um projeto para praticar lógica de programação usando **JavaScript**.
 
 
 
-#Exercício 1
+##Exercício 1
 
-## 🛒 Batata no mercado
+### 🛒 Batata no mercado
 
 ## O que estou aprendendo
 - **Manipulação de arrays de objetos** utilizando métodos como `map` e `reduce`
