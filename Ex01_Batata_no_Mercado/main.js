@@ -35,6 +35,6 @@ Produtos:
 ${listaTexto}
 Total: R$${valorCompra}
 Desconto Aplicado: 10%
-Total com desconto: R$${valorTotal}
+Total com desconto: R$${valorTotal.toFixed(2)}
 `;
 console.log(mensagem);
