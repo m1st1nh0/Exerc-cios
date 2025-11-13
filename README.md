@@ -7,11 +7,11 @@ Este é um projeto para praticar lógica de programação usando **JavaScript**.
 
 
 
-## Exercício 1 -- ### 🛒 Batata no mercado
+## Exercício 1 -- 🛒 Batata no mercado
 
 
 
-### O que estou aprendendo
+### O que aprendi/pratiquei
 - **Manipulação de arrays de objetos** utilizando métodos como `map` e `reduce`
 - **Operadores condicionais** para lógica de negócios simples
 - **Interpolação de strings** com template literals
