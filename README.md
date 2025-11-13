@@ -25,7 +25,7 @@ Este é um projeto para praticar lógica de programação usando **JavaScript**.
 - Exibe mensagem final formatada, mostrando tanto o valor sem desconto quanto com desconto (quando aplicável)
 
 ### Dificuldades e Atalhos
-Durante o exercício, comecei somando valores usando for e usando uma array bidimensional. Por exemplo, meu primeiro impulso foi algo assim:
+Durante o exercício, comecei somando valores usando for em uma array bidimensional. Meu primeiro impulso foi algo assim:
 
 ```js
 let valorCompra = 0;
@@ -33,7 +33,7 @@ for (let i = 0; i < produtos.length; i++) {
   valorCompra += produtos[i][1]
 }
 ```
-Mas pensei em outra forma de chegar ao objetivo mais simples e organizada, substituindo a array bidimensionai, por uma array de objetos, para produtoa e valor do item. Assim ultilizando o método `.reduce()`, consegui simplificar bastante o cálculo:
+Mas pensei em outra forma de chegar ao objetivo, mais simples e organizada, substituindo a array bidimensionai, por uma array de objetos, para cada produto e valor do array. Assim ultilizando o método `.reduce()`, consegui simplificar bastante o cálculo:
 
 ```js
 let valorCompra = produtos.reduce((sum, item) => sum + item.preco, 0);
@@ -45,7 +45,7 @@ Seguindo esse caminho, também deixei a montagem da mensagem mais flexível usan
 const listaTexto = produtos.map(item => `- ${item.nome}: R$${item.preco}`).join('\n');
 ```
 
-Assim, o código ficou mais limpo, reutilizável e fácil de expandir para casos futuros.
+Assim, o código ficou mais limpo, reutilizável e fácil de expandir.
 
 ## Status do Projeto
 - [x] Exercício 1 finalizado
