@@ -25,7 +25,7 @@ Este é um projeto para praticar lógica de programação usando **JavaScript**.
 - Exibe mensagem final formatada, mostrando tanto o valor sem desconto quanto com desconto (quando aplicável)
 
 ### Dificuldades e Atalhos
-Durante o exercício, notei que começar somando valores usando for e usando uma array bidimensional. Por exemplo, meu primeiro impulso foi algo assim:
+Durante o exercício, comecei somando valores usando for e usando uma array bidimensional. Por exemplo, meu primeiro impulso foi algo assim:
 
 ```js
 let valorCompra = 0;
