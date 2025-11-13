@@ -96,11 +96,31 @@ Seguir esse caminho me permitiu ter duas soluções: uma que mostra o uso do loo
 
 
 
+## 📝 Exercício 3 -- 🥔 Batata Multiplicadora
+
+### O que aprendi/pratiquei
+
+- Funções com parâmetros para tornar o código reutilizável
+- Laços de repetição (`for`) com controle de iterações
+- Template literals para formatação de strings com valores dinâmicos
+- Operações matemáticas (multiplicação) dentro de loops
+- Interpolação de variáveis em strings para exibir resultados formatados
+
+### Funcionalidades
+
+- Recebe um número como parâmetro
+- Gera a tabuada completa de 1 a 10 do número fornecido
+- Exibe cada resultado formatado no console
+- Permite reutilização da função para qualquer número
+
+***
+
 ## Status do Projeto
 
-  * [x] Exercício 1 finalizado (Batata no mercado)
-  * [x] Exercício 2 finalizado (Batata Reversa)
-  * [ ] Novos desafios em breve\!
+* [x] Exercício 1 finalizado (Batata no mercado)
+* [x] Exercício 2 finalizado (Batata Reversa)
+* [x] Exercício 3 finalizado (Batata Multiplicadora)
+* [ ] Novos desafios em breve!
 
 
 
