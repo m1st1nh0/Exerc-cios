@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Batata no Mercado</title>
+  </head>
+  <body>
+    <div class="comprar">
+      <div class="nome">
+        Digite seu nome:
+        <input type="text" name="nome" id="nome" maxlength="15" /><br />
+        <button id="nomebtn" name="nome">Entrar</button>
+      </div>
+      <hr />
+      <div class="adicionarItens">
+        Adicione suas compras
+        <input id="item-input" placeholder="Adicionar produto" />
+        <input
+          id="preco-input"
+          placeholder="Adicionar preço"
+          value=""
+          type="number"
+        />
+        <button id="itemsbtn" type="submit">Adicionar ao carrinho</button>
+        <button id="total" type="submit">Fechar compra</button>
+      </div>
+    </div>
+    <div class="carrinho">
+      <img src="src\carrinho.png" alt="carrinho" />
+      <p id="output-carrinho">minhas compras vão aqui</p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

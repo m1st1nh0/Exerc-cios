@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.comprar {
+  background-color: azure;
+  border-radius: 5rem 0 0 5rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 20rem;
+  align-items: flex-end;
+
+  text-align: center;
+  box-sizing: border-box;
+}
+.nome {
+  width: 100%;
+  height: 70%;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.adicionarItens {
+  border-top: 1px solid black;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.7rem;
+  box-sizing: border-box;
+}
+
+.carrinho {
+  background-color: azure;
+  border-radius: 1rem;
+  border-left: 0.7px solid black;
+  -webkit-box-shadow: -8px 5px 8px -2px rgba(0, 0, 0, 0.53);
+  box-shadow: -5px 5px 8px -2px rgba(0, 0, 0, 0.53);
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 25rem;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.carrinho > img {
+  height: 20%;
+}
+#output-carrinho {
+  height: 80%;
+  text-align: center;
+}
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+ul li {
+  width: 100%;
+  text-align: left;
+  display: block;
+  margin-right: 2rem;
+}
+input {
+  font-family: "Work Sans", sans-serif;
+}
+button {
+  font-family: "Work Sans", sans-serif;
+  background-color: burlywood;
+  border-radius: 2rem;
+  border-style: none;
+  border: 0.5px solid black;
+  width: 60%;
+
+  font-size: 0.9rem;
+}
